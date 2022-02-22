@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="keywords" content="tech,event,hack,hackathon,2020,frosthack,iit,mandi,fest,latest,trending">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>FrostHack | IIT Mandi</title>
+
+
+  <!-- favicon -->
+  <link rel="icon" href="./img/logos/favi.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/logos/favi.png" type="image/x-icon" />
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!-- Owl Carousel -->
+  <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+  <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" href="fontAwesome/css/all.min.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+
+  <!-- Custom stlylesheet -->
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/discordInvite.css" />
+  <style>
+    .centered {
+      text-align: center;
+      margin: 5rem auto;
+    }
+
+    .centered h2 {
+      font-size: 2rem;
+    }
+
+    .centered img {
+      margin-bottom: 20px;
+    }
+
+    .centered .fab {
+      margin-right: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+
+<!-- jQuery Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/main.js"></script>
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+<script src="js/discordInvite.js"></script>
+<script src="js/index.js"></script>
+<script>
+  discordInvite.init({
+    inviteCode: 'YsV3MJ7ke2',
+    title: 'FrostHack 2021',
+  });
+  discordInvite.render();
+</script>
+<script>
+  var path = window.location.pathname
+  if (path === "/judges" || path === "/code") {
+    window.onload = function () {
+      var i;
+      for (i = 1; i <= 7; i++) {
+        var x = document.getElementById(i).style.color = "black";
+      }
+      var i;
+      for (i = 1; i <= 7; i++) {
+        (function () {
+          var x = document.getElementById(i);
+          x.addEventListener("mouseenter", function () { x.style.color = "red"; }, false);
+          x.addEventListener("mouseout", function () { x.style.color = "black"; }, false);
+        }());
+      }
+      document.getElementById("image1").style.display = "inline-block";
+      document.getElementById("image2").style.display = "none";
+      document.getElementById("code_of_conduct").style.color = "#0F131C"
+      document.getElementById("contact_us").style.color = "#0F131C"
+    };
+  }
+</script>
+
+</html>
