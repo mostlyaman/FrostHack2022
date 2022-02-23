@@ -55,7 +55,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "red" }}>Participants</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Participants</h3>
                           <p />
                         </div>
                       </div>
@@ -87,7 +87,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Colleges</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Colleges</h3>
                           <p />
                         </div>
                       </div>
@@ -119,7 +119,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "red" }}>Teams</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Teams</h3>
                           <p />
                         </div>
                       </div>
@@ -152,7 +152,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Emails</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Emails</h3>
                           <p />
                         </div>
                       </div>
@@ -184,7 +184,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Messages</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Messages</h3>
                           <p />
                         </div>
                       </div>
@@ -216,7 +216,7 @@ export const Archive = (props) => {
                               marginRight: "10%",
                             }}
                           />
-                          <h3 style={{ color: "Red" }}>Doubts Solved</h3>
+                          <h3 style={{ color: "#dd0a37" }}>Doubts Solved</h3>
                           <p />
                         </div>
                       </div>
