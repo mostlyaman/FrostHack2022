@@ -10,7 +10,7 @@ export const Archive = (props) => {
       />
       <div id="themes" className="section">
         {/* <h1>Previous Year Stats</h1> */}
-        < div
+        <div
           className="container"
           style={{ paddingTop: "4em", marginTop: "22vh" }}
         >
@@ -27,10 +27,8 @@ export const Archive = (props) => {
                   {/*Prize*/}
                   <div className="section-title">
                     <h5 className="title" style={{ color: "white" }}>
-                      <span>
-                        Previous{" "}
-                        <span style={{ color: "red" }}>Year Statistics</span>
-                      </span>{" "}
+                      <span style={{ color: "#DADADA" }}>Previous</span>{" "}
+                      <span style={{ color: "#dd0a37" }}>Year Statistics</span>
                     </h5>
                   </div>
                   <div
@@ -231,9 +229,9 @@ export const Archive = (props) => {
             {/* /Prize Cards */}
             {/* /row */}
           </div>
-         
-            <Prizes />
-          
+
+          <Prizes isArchive="true" />
+
           {/* row */}
           <div className="row">
             <div className="section-title">

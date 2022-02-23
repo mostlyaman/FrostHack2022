@@ -3,13 +3,13 @@ import React from "react";
 export const Prizes = (props) => {
   return (
     // {/* container */}
-    <div className="container" style={{ paddingTop: "4em"}}>
+    <div className="container-fluid" style={{ paddingTop: "4em" }}>
       {/* row */}
       <div className="row tracks">
         {/* section title */}
         <div className="section-title">
           <h5 className="title">
-            <span style={{ color: "#ffffff" }}>Our Previous </span>{" "}
+            <span style={{ color: "#DADADA" }}>Previous</span>{" "}
             <span style={{ color: "#dd0a37" }}>Prizes</span>
           </h5>
         </div>
@@ -24,12 +24,17 @@ export const Prizes = (props) => {
         </div>
         {/* Prize Cards */}
         <div id="cards_landscape_wrap-2">
-          <div className="container" style={{ backgroundColor:"#0F131C" }}>
+          <div className="container" style={{ backgroundColor: "#0F131C" }}>
             <div className="row">
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-1"
               >
                 <div className="card-flyer">
                   <div className="text-box">
@@ -47,8 +52,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-2"
               >
                 <div className="card-flyer">
                   <div className="text-box">
@@ -66,8 +76,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-3"
               >
                 <div className="card-flyer">
                   <div className="text-box">
@@ -85,8 +100,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-4"
               >
                 <div className="card-flyer">
                   <div className="text-box">
@@ -103,13 +123,22 @@ export const Prizes = (props) => {
               </div>
               {/*/Prize*/}
               {/* Prize*/}
-              {/* <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4" id = "cash-prize-r1">
+              {/* <div class={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                } id = "cash-prize-r1">
                     </div> */}
               {/*/Prize */}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-5"
               >
                 <div className="card-flyer">
                   <div className="text-box">
@@ -127,8 +156,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-6"
               >
                 <a
                   rel="noreferrer"
@@ -151,8 +185,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-7"
               >
                 <a
                   rel="noreferrer"
@@ -175,8 +214,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-8"
               >
                 <a
                   rel="noreferrer"
@@ -201,8 +245,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-9"
               >
                 <a
                   rel="noreferrer"
@@ -226,8 +275,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-10"
               >
                 <a rel="noreferrer" href="https://tesseract.rezzlon.com/">
                   <div className="card-flyer">
@@ -248,8 +302,13 @@ export const Prizes = (props) => {
               {/*/Prize*/}
               {/*Prize*/}
               <div
-                className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
-                id="cash-prize-r1"
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-11"
               >
                 <a rel="noreferrer" href="https://hoverrobotix.com/">
                   <div className="card-flyer">
