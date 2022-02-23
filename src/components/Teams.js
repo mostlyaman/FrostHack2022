@@ -97,12 +97,12 @@ export const Teams = (props) => {
               role="Technical"
               fb="https://www.facebook.com/dipeshs809"
             />
-            <Member
+            {/* <Member
               name="Kishan Sharma"
               phone="8000543233"
               role="Technical"
               fb="https://www.facebook.com/kishan.raneja.borwa"
-            />
+            /> */}
             <Member
               name="Prateeksha Pal"
               phone="8957742586"
