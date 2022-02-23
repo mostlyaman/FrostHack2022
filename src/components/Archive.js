@@ -1,4 +1,5 @@
 import CountUp from "react-countup";
+import { Prizes } from "./Prizes";
 import React from "react";
 export const Archive = (props) => {
   return (
@@ -9,7 +10,7 @@ export const Archive = (props) => {
       />
       <div id="themes" className="section">
         {/* <h1>Previous Year Stats</h1> */}
-        <div
+        < div
           className="container"
           style={{ paddingTop: "4em", marginTop: "22vh" }}
         >
@@ -26,7 +27,10 @@ export const Archive = (props) => {
                   {/*Prize*/}
                   <div className="section-title">
                     <h5 className="title" style={{ color: "white" }}>
-                      <span>Previous  <span style={{color: "red"}}>Year Statistics</span></span>{" "}
+                      <span>
+                        Previous{" "}
+                        <span style={{ color: "red" }}>Year Statistics</span>
+                      </span>{" "}
                     </h5>
                   </div>
                   <div
@@ -60,8 +64,8 @@ export const Archive = (props) => {
                     </div>
                   </div>
                   {/*/Prize*/}
-                   {/*Prize*/}
-                   <div
+                  {/*Prize*/}
+                  <div
                     className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
                     id="cash-prize-r1-d"
                     style={{ padding: "10px 40px" }}
@@ -124,7 +128,7 @@ export const Archive = (props) => {
                     </div>
                   </div>
                   {/*/Prize*/}
-                    
+
                   {/*Prize*/}
                   <div
                     className="col-xs-12 col-sm-6 col-md-4 col-lg-4"
@@ -221,13 +225,15 @@ export const Archive = (props) => {
                     </div>
                   </div>
                   {/*/Prize*/}
-                
                 </div>
               </div>
             </div>
             {/* /Prize Cards */}
             {/* /row */}
           </div>
+         
+            <Prizes />
+          
           {/* row */}
           <div className="row">
             <div className="section-title">

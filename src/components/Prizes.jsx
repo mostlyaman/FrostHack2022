@@ -3,13 +3,13 @@ import React from "react";
 export const Prizes = (props) => {
   return (
     // {/* container */}
-    <div className="container" style={{ paddingTop: "4em" }}>
+    <div className="container" style={{ paddingTop: "4em"}}>
       {/* row */}
       <div className="row tracks">
         {/* section title */}
         <div className="section-title">
           <h5 className="title">
-            <span>Our Previous </span>{" "}
+            <span style={{ color: "#ffffff" }}>Our Previous </span>{" "}
             <span style={{ color: "#dd0a37" }}>Prizes</span>
           </h5>
         </div>
@@ -24,7 +24,7 @@ export const Prizes = (props) => {
         </div>
         {/* Prize Cards */}
         <div id="cards_landscape_wrap-2">
-          <div className="container">
+          <div className="container" style={{ backgroundColor:"#0F131C" }}>
             <div className="row">
               {/*Prize*/}
               <div
