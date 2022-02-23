@@ -6,12 +6,10 @@ export const Member = (props) => {
     <div className="col-lg-3 col-md-6 centered">
       <img
         className="img img-circle"
-        // src={props.img}
-        // src={require('https://drive.google.com/file/d/1cmY5J8fTGquW3nEcYY71VsvBLR7YpKEL/view?usp=sharing'.default)}
-        src='url("https://drive.google.com/file/d/1cmY5J8fTGquW3nEcYY71VsvBLR7YpKEL/view?usp=sharing")'
-        // src="img/deepaliSingh.jpeg"
+        src={"img/"+props.name.split(' ')[0].toLowerCase()+".jpg"}
         height="200px"
         width="200px"
+        alt=""
       />
       <br />
       <h2>

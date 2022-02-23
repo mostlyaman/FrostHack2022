@@ -27,7 +27,6 @@ export const Teams = (props) => {
             <Member
               name="Deepali Singh"
               phone="2898282"
-              img="https://drive.google.com/file/d/1cmY5J8fTGquW3nEcYY71VsvBLR7YpKEL/"
               role="Branding"
               fb="https://www.facebook.com/deepali.s11/"
             />
