@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { Contactus } from "./Contactus";
@@ -19,7 +19,7 @@ export const Index = (props) => {
                 {/* home content */}
                 <div className="col-md-8 col-md-offset-2">
                   <div className="home-content">
-                    <h1 className='coming-soon'>
+                    <h1 className="coming-soon">
                       <br />
                       <br />
                       <br />
@@ -28,16 +28,29 @@ export const Index = (props) => {
                     </h1>
                     <h1>
                       {/* frosthack */}
-                      <img id="frosthacklogo" src="./img/logos/wide-white.png" alt="" />
+                      <img
+                        id="frosthacklogo"
+                        src="./img/logos/wide-white.png"
+                        alt=""
+                      />
                     </h1>
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
-                      <i className="fas fa-calendar-day"> 7th May - 8th May 2022</i>
+                      <i className="fas fa-calendar-day">
+                        {" "}
+                        7th May - 8th May 2022
+                      </i>
                     </h4>
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
-                    <div> <br /> </div>
-                    <div> <br /> </div>
+                    <div>
+                      {" "}
+                      <br />{" "}
+                    </div>
+                    <div>
+                      {" "}
+                      <br />{" "}
+                    </div>
                     {/* <div className="apply-button" data-hackathon-slug="frosthack2021" data-button-theme="light" style={{ height: '44px', width: '312px' }} /> */}
                   </div>
                 </div>
@@ -59,14 +72,20 @@ export const Index = (props) => {
           <div className="row">
             {/* section title */}
             <div className="section-title">
-              <h3 className="title"><span>About</span> <span style={{ color: '#dd0a37' }}>Event</span></h3>
+              <h3 className="title">
+                <span>About</span>{" "}
+                <span style={{ color: "#dd0a37" }}>Event</span>
+              </h3>
             </div>
             {/* /section title */}
             <div className="col-md-8 col-md-offset-2 text-center">
               {/* about content */}
               <div className="about-content">
                 <p className="changecolor">
-                  FrostHack is an Open Hackathon organized by the student community of IIT Mandi with the goal of solving societal problems by collective collaboration among the students using tech.
+                  FrostHack is an Open Hackathon organized by the student
+                  community of IIT Mandi with the goal of solving societal
+                  problems by collective collaboration among the students using
+                  tech.
                 </p>
               </div>
               {/* /about content */}
@@ -76,12 +95,14 @@ export const Index = (props) => {
         </div>
         {/* /container */}
         {/* container */}
-        <div className="container" style={{ paddingTop: '4em' }}>
+        <div className="container" style={{ paddingTop: "4em" }}>
           {/* row */}
           <div className="row tracks">
             {/* section title */}
             <div className="section-title">
-              <h5 className="title"><span>Tracks</span> </h5>
+              <h5 className="title">
+                <span>Tracks</span>{" "}
+              </h5>
             </div>
             {/* /section title */}
             {/* track */}
@@ -137,12 +158,15 @@ export const Index = (props) => {
         </div>
         {/* /container */}
         {/* container */}
-        <div className="container" style={{ paddingTop: '4em' }}>
+        <div className="container" style={{ paddingTop: "4em" }}>
           {/* row */}
           <div className="row tracks">
             {/* section title */}
             <div className="section-title">
-              <h5 className="title"><span>Prizes</span> </h5>
+              <h5 className="title">
+                <span>Our Previous </span>{" "}
+                <span style={{ color: "#dd0a37" }}>Prizes</span>
+              </h5>
             </div>
             <div className="col-md-8 col-md-offset-2 text-center">
               {/* about content */}
@@ -158,7 +182,10 @@ export const Index = (props) => {
               <div className="container">
                 <div className="row">
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
@@ -174,7 +201,10 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
@@ -190,7 +220,10 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
@@ -206,7 +239,10 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
@@ -226,7 +262,10 @@ export const Index = (props) => {
                               </div> */}
                   {/*/Prize */}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
@@ -242,15 +281,23 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
-                    <a rel="noreferrer" href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
+                    <a
+                      rel="noreferrer"
+                      href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
+                    >
                       <div className="card-flyer">
                         <div className="text-box">
                           <div className="image-box-noncash">
                             <img src="img/spons/Celo.png" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor"><b>₹20,000</b> for best Dapp built on Celo.</p>
+                            <p className="changecolor">
+                              <b>₹20,000</b> for best Dapp built on Celo.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -258,15 +305,23 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
-                    <a rel="noreferrer" href="https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Prize-e198dfd094a9411b8cd0f80d76a04a90">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
+                    <a
+                      rel="noreferrer"
+                      href="https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Prize-e198dfd094a9411b8cd0f80d76a04a90"
+                    >
                       <div className="card-flyer">
                         <div className="text-box">
                           <div className="image-box-noncash">
                             <img src="img/spons/portis.jpg" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor"><b>₹15,000</b> for best Dapp built on Portis</p>
+                            <p className="changecolor">
+                              <b>₹15,000</b> for best Dapp built on Portis
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -274,15 +329,26 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
-                    <a rel="noreferrer" href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
+                    <a
+                      rel="noreferrer"
+                      href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
+                    >
                       <div className="card-flyer">
                         <div className="text-box">
                           <div className="image-box-noncash">
                             <img src="img/spons/Polygon2.png" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor"><b>₹10,000</b> for the best hack built on Ethereum,<br /> or <b>₹15,000</b> for the best hack built on Ethereum + Matic</p>
+                            <p className="changecolor">
+                              <b>₹10,000</b> for the best hack built on
+                              Ethereum,
+                              <br /> or <b>₹15,000</b> for the best hack built
+                              on Ethereum + Matic
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -290,15 +356,25 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
-                    <a rel="noreferrer" href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
+                    <a
+                      rel="noreferrer"
+                      href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
+                    >
                       <div className="card-flyer">
                         <div className="text-box">
                           <div className="image-box-noncash">
                             <img src="img/spons/tezos.jpg" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor"><b>₹20,000</b> for best Dapp built on Tezos <br /> Continuity Grant opportunity for exceptional builders</p>
+                            <p className="changecolor">
+                              <b>₹20,000</b> for best Dapp built on Tezos <br />{" "}
+                              Continuity Grant opportunity for exceptional
+                              builders
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -306,7 +382,10 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <a rel="noreferrer" href="https://tesseract.rezzlon.com/">
                       <div className="card-flyer">
                         <div className="text-box">
@@ -314,7 +393,11 @@ export const Index = (props) => {
                             <img src="img/spons/tesseract.png" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor">1st prize - 1 Tesseract Light <br /> 2nd prize - 30% discount coupon <br /> 3rd prize - 15% Discount coupon</p>
+                            <p className="changecolor">
+                              1st prize - 1 Tesseract Light <br /> 2nd prize -
+                              30% discount coupon <br /> 3rd prize - 15%
+                              Discount coupon
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -322,7 +405,10 @@ export const Index = (props) => {
                   </div>
                   {/*/Prize*/}
                   {/*Prize*/}
-                  <div className="col-xs-12 col-sm-6 col-md-3 col-lg-4" id="cash-prize-r1">
+                  <div
+                    className="col-xs-12 col-sm-6 col-md-3 col-lg-4"
+                    id="cash-prize-r1"
+                  >
                     <a rel="noreferrer" href="https://hoverrobotix.com/">
                       <div className="card-flyer">
                         <div className="text-box">
@@ -330,7 +416,13 @@ export const Index = (props) => {
                             <img src="img/spons/hoverRobotix.png" alt="" />
                           </div>
                           <div className="text-container">
-                            <p className="changecolor"><b>₹10,000</b> worth voucher to: <br />Top 3<br />Best All Female Team<br />Best Covid Hack</p>
+                            <p className="changecolor">
+                              <b>₹10,000</b> worth voucher to: <br />
+                              Top 3<br />
+                              Best All Female Team
+                              <br />
+                              Best Covid Hack
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -423,17 +515,33 @@ export const Index = (props) => {
             <div className="row sponbox">
               {/* section title */}
               <div className="section-title">
-                <h3 className="title"><span>Our Previous </span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
+                <h3 className="title">
+                  <span>Our Previous </span>{" "}
+                  <span style={{ color: "#dd0a37" }}>Sponsors</span>
+                </h3>
               </div>
               {/* /section title */}
             </div>
-            
-            <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Diamond Sponsors</h3>
+
+            <h3
+              className="text-center changecolor"
+              style={{
+                marginTop: "100px",
+                marginBottom: "40px",
+                fontSize: "30px",
+              }}
+            >
+              Diamond Sponsors
+            </h3>
             <div className="spon-diamond">
               <div className="track sponsor">
-                <a rel="noreferrer" href="https://motwanijadejafoundation.com/" target="_blank">
-                  <div className="img" >
-                    <img src="img/spons/MJF_logo.png" alt=""  />
+                <a
+                  rel="noreferrer"
+                  href="https://motwanijadejafoundation.com/"
+                  target="_blank"
+                >
+                  <div className="img">
+                    <img src="img/spons/MJF_logo.png" alt="" />
                   </div>
                 </a>
               </div>
@@ -445,10 +553,23 @@ export const Index = (props) => {
                 </a>
               </div>
             </div>
-            <h3 className="text-center changecolor" style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Platinum Sponsors</h3>
+            <h3
+              className="text-center changecolor"
+              style={{
+                marginTop: "100px",
+                marginBottom: "40px",
+                fontSize: "30px",
+              }}
+            >
+              Platinum Sponsors
+            </h3>
             <div className="spon-platinum">
               <div className="track sponsor">
-                <a rel="noreferrer" href="https://polygon.technology/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://polygon.technology/"
+                  target="_blank"
+                >
                   <div className="img">
                     <img src="img/spons/Polygon2.png" alt="" />
                   </div>
@@ -469,47 +590,112 @@ export const Index = (props) => {
                 </a>
               </div>
               <div className="track sponsor">
-                <a rel="noreferrer" href="https://www.portis.io" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://www.portis.io"
+                  target="_blank"
+                >
                   <div className="img">
-                    <img src="img/spons/portis.png" alt="" className="spon-logo" />
+                    <img
+                      src="img/spons/portis.png"
+                      alt=""
+                      className="spon-logo"
+                    />
                   </div>
                 </a>
               </div>
               <div className="track sponsor">
-                <a rel="noreferrer" href="https://ieee.iitmandi.ac.in/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://ieee.iitmandi.ac.in/"
+                  target="_blank"
+                >
                   <div className="img">
-                    <img src="img/spons/IEEE_logo.png" alt="" className="spon-logo" />
+                    <img
+                      src="img/spons/IEEE_logo.png"
+                      alt=""
+                      className="spon-logo"
+                    />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Gold Sponsor</h3>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "100px",
+              marginBottom: "40px",
+              fontSize: "30px",
+            }}
+          >
+            Gold Sponsor
+          </h3>
           <div className="spon-diamond">
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://hoverrobotix.com/" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://hoverrobotix.com/"
+                target="_blank"
+              >
                 <div className="img-fluid">
                   <img src="img/spons/hoverRobotix.png" alt="" />
                 </div>
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px", fontSize:"30px" }}>Silver Sponsor</h3>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "100px",
+              marginBottom: "40px",
+              fontSize: "30px",
+            }}
+          >
+            Silver Sponsor
+          </h3>
           <div className="spon-diamond">
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://tesseract.rezzlon.com/" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://tesseract.rezzlon.com/"
+                target="_blank"
+              >
                 <div className="img">
-                  <img src="img/spons/tesseract.png" alt="" width={50} height={60} />
+                  <img
+                    src="img/spons/tesseract.png"
+                    alt=""
+                    width={50}
+                    height={60}
+                  />
                 </div>
               </a>
             </div>
           </div>
-          <h3 className="text-center changecolor"  style={{ marginTop: '100px', marginBottom:"40px",fontSize:"30px" }}>Media Partners</h3>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "100px",
+              marginBottom: "40px",
+              fontSize: "30px",
+            }}
+          >
+            Media Partners
+          </h3>
           <div className="spon-diamond">
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in"
+                target="_blank"
+              >
                 <div className="img">
-                  <img src="img/spons/hackoverflow_logo.png" alt="" width={50} height={60} />
+                  <img
+                    src="img/spons/hackoverflow_logo.png"
+                    alt=""
+                    width={50}
+                    height={60}
+                  />
                 </div>
               </a>
             </div>
@@ -699,7 +885,15 @@ export const Index = (props) => {
           {/* container */}
           <div className="container">
             <div className="download-btn">
-              <a rel="noreferrer" href="./files/spon.pdf" target="_blank" className="main-btn" style={{marginBottom:40}}>Sponsor Us</a>
+              <a
+                rel="noreferrer"
+                href="./files/spon.pdf"
+                target="_blank"
+                className="main-btn"
+                style={{ marginBottom: 40 }}
+              >
+                Sponsor Us
+              </a>
             </div>
           </div>
           {/* /container */}
@@ -713,22 +907,44 @@ export const Index = (props) => {
             <div className="row">
               {/* section title */}
               <div className="section-title">
-                <h3 className="title"><span>Frequent </span> <span style={{ color: '#dd0a37' }}>Questions</span></h3>
+                <h3 className="title">
+                  <span>Frequent </span>{" "}
+                  <span style={{ color: "#dd0a37" }}>Questions</span>
+                </h3>
               </div>
               {/* /section title */}
               {/* Questions */}
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div className="faq">
-                  <div className="panel-group" id="accordion-left" role="tablist" aria-multiselectable="true">
+                  <div
+                    className="panel-group"
+                    id="accordion-left"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-left" href="#collapse1st" aria-expanded="false" aria-controls="collapse1st">
-                            Should team members be of the same college or people of different colleges forming a team would also do ?
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-left"
+                            href="#collapse1st"
+                            aria-expanded="false"
+                            aria-controls="collapse1st"
+                          >
+                            Should team members be of the same college or people
+                            of different colleges forming a team would also do ?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse1st" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div
+                        id="collapse1st"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
                             Yes, team members can be from different colleges
@@ -739,18 +955,33 @@ export const Index = (props) => {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-left" href="#collapse6th" aria-expanded="false" aria-controls="collapse6th">
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-left"
+                            href="#collapse6th"
+                            aria-expanded="false"
+                            aria-controls="collapse6th"
+                          >
                             Can I start working on my hack before the event?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse6th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div
+                        id="collapse6th"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
-                            No. In the interest of fairness, students should not be working on their
-                            projects before FROSTHACK begins and we do not allow participants to work on
-                            pre-existing projects. However, you can familiarize yourself with all the
-                            tools and technologies you intend to use beforehand!
+                            No. In the interest of fairness, students should not
+                            be working on their projects before FROSTHACK begins
+                            and we do not allow participants to work on
+                            pre-existing projects. However, you can familiarize
+                            yourself with all the tools and technologies you
+                            intend to use beforehand!
                           </p>
                         </div>
                       </div>
@@ -758,12 +989,25 @@ export const Index = (props) => {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-left" href="#collapse2nd" aria-expanded="false" aria-controls="collapse2nd">
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-left"
+                            href="#collapse2nd"
+                            aria-expanded="false"
+                            aria-controls="collapse2nd"
+                          >
                             Is this hackathon an online event or offline?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse2nd" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div
+                        id="collapse2nd"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingTwo"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
                             The event will be online.
@@ -817,21 +1061,40 @@ export const Index = (props) => {
               {/* Questions */}
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div className="faq">
-                  <div className="panel-group" id="accordion-right" role="tablist" aria-multiselectable="true">
+                  <div
+                    className="panel-group"
+                    id="accordion-right"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-right" href="#collapse4th" aria-expanded="false" aria-controls="collapse4th">
-                            Who will own the IP (Intellectual Property) Rights to the product that I
-                            have built?
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-right"
+                            href="#collapse4th"
+                            aria-expanded="false"
+                            aria-controls="collapse4th"
+                          >
+                            Who will own the IP (Intellectual Property) Rights
+                            to the product that I have built?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse4th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div
+                        id="collapse4th"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingOne"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
-                            The developer/developers of the application will have all rights and own the
-                            IP of the product. However, all code needs to be in public domain (open
+                            The developer/developers of the application will
+                            have all rights and own the IP of the product.
+                            However, all code needs to be in public domain (open
                             source) so that it can be evaluated by the judges.
                           </p>
                         </div>
@@ -840,16 +1103,30 @@ export const Index = (props) => {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-right" href="#collapse5th" aria-expanded="false" aria-controls="collapse5th">
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-right"
+                            href="#collapse5th"
+                            aria-expanded="false"
+                            aria-controls="collapse5th"
+                          >
                             What is the team size ?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse5th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div
+                        id="collapse5th"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingTwo"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
                             Every team can have min 2 and max 3 members.
-                          </p></div>
+                          </p>
+                        </div>
                       </div>
                     </div>
                     {/* <div class="panel panel-default">
@@ -876,17 +1153,32 @@ export const Index = (props) => {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
-                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-right" href="#collapse8th" aria-expanded="false" aria-controls="collapse8th" c>
-                            I have a question related to hackathon which is not listed above. What
-                            should I do?
+                          <a
+                            rel="noreferrer"
+                            className="collapsed changecolor"
+                            data-toggle="collapse"
+                            data-parent="#accordion-right"
+                            href="#collapse8th"
+                            aria-expanded="false"
+                            aria-controls="collapse8th"
+                            c
+                          >
+                            I have a question related to hackathon which is not
+                            listed above. What should I do?
                           </a>
                         </h3>
                       </div>
-                      <div id="collapse8th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div
+                        id="collapse8th"
+                        className="panel-collapse collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingTwo"
+                      >
                         <div className="panel-body">
                           <p className="changecolor">
-                            Feel free to contact us. Just drop us a mail at team@frosthack.com
-                            You can also contact one of our organizers.
+                            Feel free to contact us. Just drop us a mail at
+                            team@frosthack.com You can also contact one of our
+                            organizers.
                           </p>
                         </div>
                       </div>
@@ -904,4 +1196,4 @@ export const Index = (props) => {
       </div>
     </div>
   );
-}
+};
