@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { Member } from "./Member";
-import rish from "./rishabh_g.jpg"
 export const Teams = (props) => {
   return (
     <div>
@@ -47,7 +46,7 @@ export const Teams = (props) => {
               phone="7027760333"
               role="Technical Head"
               fb="https://www.facebook.com/profile.php?id=100039774819697"
-              img={rish}
+              img="rishabh_g"
             />
               <Member
                 name="Paras "
