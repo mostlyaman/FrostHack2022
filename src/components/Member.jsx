@@ -6,7 +6,11 @@ export const Member = (props) => {
     <div className="col-lg-3 col-md-6 centered">
       <img
         className="img img-circle"
-        src={"img/"+props.name.split(' ')[0].toLowerCase()+".jpg"}
+        src={
+          "img/" +
+          (props.img ? props.img : props.name.split(" ")[0].toLowerCase()) +
+          ".jpg"
+        }
         height="200px"
         width="200px"
         alt=""
