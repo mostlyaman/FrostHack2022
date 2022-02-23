@@ -114,7 +114,7 @@ export const Teams = (props) => {
               name="Harshit Krishna"
               phone="9667762142"
               role="Social Media"
-              fb="www.facebook.com/harshit.krishna.587"
+              fb="https://www.facebook.com/harshit.krishna.587"
             />
             <Member
               name="Anurag Maurya"
