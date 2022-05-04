@@ -20,10 +20,10 @@ export const Index = (props) => {
                 <div className="col-md-8 col-md-offset-2">
                   <div className="home-content">
                     <h1 className="coming-soon">
-                      <br />
-                      <br />
-                      <br />
                       {/* <br /> */}
+                      <br />
+                      <br /> 
+                      <br />
                       COMING SOON
                     </h1>
                     <h1>
