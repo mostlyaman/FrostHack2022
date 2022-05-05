@@ -39,7 +39,7 @@ export const Index = (props) => {
                       <br />
                       <i className="fas fa-calendar-day">
                         {" "}
-                        7th May - 8th May 2022
+                        20th May - 22nd May 2022
                       </i>
                     </h4>
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
