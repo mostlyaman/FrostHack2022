@@ -100,11 +100,11 @@ export const Navbar = (props) => {
               </a>
             </li>
             {/* <li><a id="4" href="/judges">Judges</a></li> */}
-            {/* <li>
+            <li>
               <a id="5" href="/mentors">
                 Mentors
               </a>
-            </li> */}
+            </li>
             <li>
               <a id="6" href="/teams">
                 Team

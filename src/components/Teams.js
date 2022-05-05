@@ -23,7 +23,7 @@ export const Teams = (props) => {
               </h3>
             </div>
             {/* /section title */}
-            <Member
+            {/* <Member
               name="Nehal Reshu"
               phone="9654855054"
               role="Overall Head"
@@ -34,20 +34,50 @@ export const Teams = (props) => {
               phone="7987590764"
               role="Overall Head"
               fb="https://www.facebook.com/shubhanshu.agrawal.399/"
-            />
+            /> */}
             <Member
               name="Rijul Jain"
               phone="9910844346"
-              role="Technical Head"
+              role="Overall Head"
               fb="https://www.facebook.com/rijul.jain.144/"
             />
             <Member
+              name="Pushkar Patel"
+              phone="7876425139"
+              role="Overall Head"
+              fb="https://www.facebook.com/pushkar.patel.739326"
+            />
+             <Member
+              name="Harshit Krishna"
+              phone="9667762142"
+              role="Technical Team"
+              fb="https://www.facebook.com/harshit.krishna.587"
+            />
+            <Member
+              name="Dipesh Sharma"
+              phone="7339821343"
+              role="Technical Team"
+              fb="https://www.facebook.com/dipeshs809"
+            />
+            <Member
+              name="Ashutosh Sharma"
+              phone="9024790172"
+              role="Technical Team"
+              fb="https://www.facebook.com/"
+            />
+            <Member
+              name="Prateeksha Pal"
+              phone="8957742586"
+              role="Technical Team"
+              fb="https://www.facebook.com/prateeksha.pal.313"
+            />
+            {/* <Member
               name="Rishabh Garg"
               phone="7027760333"
               role="Technical Head"
               fb="https://www.facebook.com/profile.php?id=100039774819697"
               img="rishabh_g"
-            />
+            /> */}
               <Member
                 name="Paras "
                 phone="7860688567"
@@ -91,43 +121,14 @@ export const Teams = (props) => {
               role="Design Head"
               fb="https://www.facebook.com/punit.daga.14/"
             />
-            <Member
-              name="Dipesh Sharma"
-              phone="7339821343"
-              role="Technical"
-              fb="https://www.facebook.com/dipeshs809"
-            />
-            {/* <Member
-              name="Kishan Sharma"
-              phone="8000543233"
-              role="Technical"
-              fb="https://www.facebook.com/kishan.raneja.borwa"
-            /> */}
-            <Member
-              name="Prateeksha Pal"
-              phone="8957742586"
-              role="Social Media"
-              fb="https://www.facebook.com/prateeksha.pal.313"
-            />
             
-            <Member
-              name="Harshit Krishna"
-              phone="9667762142"
-              role="Social Media"
-              fb="https://www.facebook.com/harshit.krishna.587"
-            />
             <Member
               name="Anurag Maurya"
               phone="7379906268"
               role="Sponsor"
               fb="https://www.facebook.com"
             />
-            <Member
-              name="Ashutosh Sharma"
-              phone="7018458081"
-              role="Sponsor"
-              fb="https://www.facebook.com/your.ashutoshsharma/"
-            />
+            
             <Member
               name="Kuldeep Jain"
               phone="8986388665"
