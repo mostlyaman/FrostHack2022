@@ -22,7 +22,7 @@ export const Index = (props) => {
                     <h1 className="coming-soon">
                       {/* <br /> */}
                       <br />
-                      <br /> 
+                      <br />
                       <br />
                       COMING SOON
                     </h1>
@@ -157,7 +157,7 @@ export const Index = (props) => {
           {/* /row */}
         </div>
         {/* /container */}
-        <Prizes/>
+        <Prizes />
         {/* </div> */}
         {/* /Themes */}
         {/* <div id="themes" class="section"> */}
@@ -238,14 +238,14 @@ export const Index = (props) => {
               {/* section title */}
               <div className="section-title">
                 <h3 className="title">
-                  <span>Our Previous </span>{" "}
+                  <span>Our </span>{" "}
                   <span style={{ color: "#dd0a37" }}>Sponsors</span>
                 </h3>
               </div>
               {/* /section title */}
             </div>
 
-            <h3
+            {/* <h3
               className="text-center changecolor"
               style={{
                 marginTop: "100px",
@@ -275,6 +275,35 @@ export const Index = (props) => {
                 </a>
               </div>
             </div>
+            */}
+            <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "100px",
+              marginBottom: "40px",
+              fontSize: "30px",
+            }}
+          >
+            Title Sponsor
+          </h3>
+          <div className="spon-diamond">
+            <div className="track sponsor">
+              <a
+                rel="noreferrer"
+                href="https://www.infotechhub.in/index.html"
+                target="_blank"
+              >
+                <div className="img">
+                  <img
+                    src="img/spons/top-logo.png"
+                    alt=""
+                    width={50}
+                    height={60}
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
             <h3
               className="text-center changecolor"
               style={{
@@ -283,35 +312,37 @@ export const Index = (props) => {
                 fontSize: "30px",
               }}
             >
-              Platinum Sponsors
+              Gold Sponsors
             </h3>
             <div className="spon-platinum">
+              <div className="spon-diamond">
+                <div className="track sponsor">
+                  <a
+                    rel="noreferrer"
+                    href="https://hoverrobotix.com/"
+                    target="_blank"
+                  >
+                    <div className="img-fluid">
+                      <img src="img/spons/hoverRobotix.png" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
               <div className="track sponsor">
-                <a
-                  rel="noreferrer"
-                  href="https://polygon.technology/"
-                  target="_blank"
-                >
+                <a rel="noreferrer" href="https://www.geeksforgeeks.org/" target="_blank">
                   <div className="img">
-                    <img src="img/spons/Polygon2.png" alt="" />
+                    <img src="img/spons/gfg-new-logo.png" alt="" />
                   </div>
                 </a>
               </div>
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://tezos.com/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/tezos.png" alt="" />
-                  </div>
-                </a>
-              </div>
-              <div className="track sponsor">
+              {/* <div className="track sponsor">
                 <a rel="noreferrer" href="https://celo.org/" target="_blank">
                   <div className="img">
                     <img src="img/spons/Celo.png" alt="not found" />
                   </div>
                 </a>
-              </div>
-              <div className="track sponsor">
+              </div> */}
+              {/* <div className="track sponsor">
                 <a
                   rel="noreferrer"
                   href="https://www.portis.io"
@@ -325,8 +356,8 @@ export const Index = (props) => {
                     />
                   </div>
                 </a>
-              </div>
-              <div className="track sponsor">
+              </div> */}
+              {/* <div className="track sponsor">
                 <a
                   rel="noreferrer"
                   href="https://ieee.iitmandi.ac.in/"
@@ -340,10 +371,10 @@ export const Index = (props) => {
                     />
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
-          <h3
+          {/* <h3
             className="text-center changecolor"
             style={{
               marginTop: "100px",
@@ -352,9 +383,9 @@ export const Index = (props) => {
             }}
           >
             Gold Sponsor
-          </h3>
-          <div className="spon-diamond">
-            <div className="track sponsor">
+          </h3> */}
+          {/* <div className="spon-diamond"> */}
+            {/* <div className="track sponsor">
               <a
                 rel="noreferrer"
                 href="https://hoverrobotix.com/"
@@ -365,7 +396,8 @@ export const Index = (props) => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
+{/*           
           <h3
             className="text-center changecolor"
             style={{
@@ -393,35 +425,8 @@ export const Index = (props) => {
                 </div>
               </a>
             </div>
-          </div>
-          <h3
-            className="text-center changecolor"
-            style={{
-              marginTop: "100px",
-              marginBottom: "40px",
-              fontSize: "30px",
-            }}
-          >
-            Media Partners
-          </h3>
-          <div className="spon-diamond">
-            <div className="track sponsor">
-              <a
-                rel="noreferrer"
-                href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in"
-                target="_blank"
-              >
-                <div className="img">
-                  <img
-                    src="img/spons/hackoverflow_logo.png"
-                    alt=""
-                    width={50}
-                    height={60}
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
+          </div> */}
+          
           {/* container */}
           <div className="container">
             {/* track */}

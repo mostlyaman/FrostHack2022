@@ -31,8 +31,8 @@ export const Contactus = (props) => {
                         <div className="contact">
                             <i className="fas fa-phone fa-4x"></i>
                             <h3 className="mt-3">Phone</h3>
-                            <p><a href="tel:+919654855054" className="changecolor">Nehal : +919654855054</a></p>
-                            <p><a href="tel:+917987590764" className="changecolor">Shubhanshu : +917987590764</a></p>
+                            <p><a href="tel:+919910844346" className="changecolor">Rijul Jain : +919910844346</a></p>
+                            <p><a href="tel:+918588001482" className="changecolor">Pushkar Patel : +918588001482</a></p>
                         </div>
                     </div>
                     {/* <!-- /contact -->

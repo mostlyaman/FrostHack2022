@@ -80,30 +80,30 @@ export const Mentors = (props) => {
               {/* /team-member */}
               {/* team-member */}
               <div className="col-lg-3 col-md-6 centered">
-                <img className="img img-circle" src="img/maninder.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
+                <img className="img img-circle" src="img/abhijeet.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
-                <h2><b className="changecolor">Maninder Singh</b></h2>
+                <h2><b className="changecolor">Abhijeet Manhas</b></h2>
                 <p className="changecolor">Intern at OneBanc Technologies</p>
                 <p className="changecolor">Experinced IOS Developer </p>
-                <a href="https://www.linkedin.com/in/switysingh/" target="_blank">
+                <a href="https://www.linkedin.com/in/abhimanhas/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="tel:+918851129092" target="_blank">
+                <a href="tel:+918628963924" target="_blank">
                   <i className="fas fa-phone fa-lg" />
                 </a>
               </div>
               {/* /team-member */}
               {/* team-member */}
               <div className="col-lg-3 col-md-6 centered">
-                <img className="img img-circle" src="img/shubhendra.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
+                <img className="img img-circle" src="img/kartik.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
-                <h2><b className="changecolor">Shubhendra Singh Chauhan</b></h2>
+                <h2><b className="changecolor">Kartik Kathuria</b></h2>
                 <p className="changecolor">Developer Advocate at DeepSource</p>
                 <p className="changecolor">Mozilla Rep</p>
-                <a href="https://www.linkedin.com/in/withshubh/" target="_blank">
+                <a href="https://www.linkedin.com/in/kartik-kathuria-0672b7158/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="tel:+918182004700" target="_blank">
+                <a href="tel:+917982453395" target="_blank">
                   <i className="fas fa-phone fa-lg" />
                 </a>
               </div>
