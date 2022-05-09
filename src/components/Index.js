@@ -28,15 +28,17 @@ export const Index = (props) => {
                     </h1>
                     <h1>
                       {/* frosthack */}
-                      <img
+                      {/* <img
                         id="frosthacklogo"
                         src="./img/logos/wide-white.png"
                         alt=""
-                      />
-                    </h1>
+                      /> */}
+                    </h1>.
+                    <br /><br />
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
+                      
                       <i className="fas fa-calendar-day">
                         {" "}
                         20th May - 22nd May 2022
