@@ -14,7 +14,7 @@ export const Footer = (props) => {
                                     className="fab fa-facebook fa-2x"></i></a>
                             <a target="_blank" href="https://www.instagram.com/frosthack_iitmandi/" rel="noreferrer"><i
                                     className="fab fa-instagram fa-2x"></i></a>
-                            <a target="_blank" href="https://discord.com/invite/YsV3MJ7ke2" rel="noreferrer">
+                            <a target="_blank" href="https://discord.com/invite/2k6N5k2Vqw" rel="noreferrer">
                                 <i className="fab fa-discord fa-2x" ></i>
                             </a>
                         </div>

@@ -32,7 +32,7 @@ export const Contactus = (props) => {
                             <i className="fas fa-phone fa-4x"></i>
                             <h3 className="mt-3">Phone</h3>
                             <p><a href="tel:+919910844346" className="changecolor">Rijul Jain : +919910844346</a></p>
-                            <p><a href="tel:+918588001482" className="changecolor">Pushkar Patel : +918588001482</a></p>
+                            <p><a target="_blank" href="tel:+918588001482" className="changecolor">Pushkar Patel : +918588001482</a></p>
                         </div>
                     </div>
                     {/* <!-- /contact -->
@@ -42,14 +42,14 @@ export const Contactus = (props) => {
                         <div className="contact">
                             <i className="fas fa-envelope fa-4x"></i>
                             <h3 className="mt-3">Email</h3>
-                            <a href="mailto:teamfrosthack@gmail.com" className="changecolor">teamfrosthack@gmail.com</a>
+                            <a target="_blank" href="mailto:teamfrosthack@gmail.com" className="changecolor">teamfrosthack@gmail.com</a>
                         </div>
                     </div>
                     <div className="col-sm-3">
                         <div className="contact">
                             <i className="fab fa-discord fa-4x"></i>
                             <h3 className="mt-3">Discord Server</h3>
-                            <a href="https://discord.com/invite/YsV3MJ7ke2" className="changecolor">Invite Link</a>
+                            <a target="_blank" href="https://discord.com/invite/2k6N5k2Vqw" className="changecolor">Invite Link</a>
                         </div>
                     </div>
 

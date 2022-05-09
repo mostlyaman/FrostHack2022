@@ -83,8 +83,8 @@ export const Mentors = (props) => {
                 <img className="img img-circle" src="img/abhijeet.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
                 <h2><b className="changecolor">Abhijeet Manhas</b></h2>
-                <p className="changecolor">Intern at OneBanc Technologies</p>
-                <p className="changecolor">Experinced IOS Developer </p>
+                <p className="changecolor">GSOC Openastronomy 2020</p>
+                <p className="changecolor">Two times bronze medlist in Inter IIT Tech Meet</p>
                 <a href="https://www.linkedin.com/in/abhimanhas/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
@@ -98,8 +98,8 @@ export const Mentors = (props) => {
                 <img className="img img-circle" src="img/kartik.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
                 <h2><b className="changecolor">Kartik Kathuria</b></h2>
-                <p className="changecolor">Developer Advocate at DeepSource</p>
-                <p className="changecolor">Mozilla Rep</p>
+                <p className="changecolor">GSOC Mentor CIVICRM 2021 </p>
+                <p className="changecolor">GSOC CIVICRM 2020</p>
                 <a href="https://www.linkedin.com/in/kartik-kathuria-0672b7158/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
@@ -110,11 +110,11 @@ export const Mentors = (props) => {
               {/* /team-member */}
               {/* team-member */}
               <div className="col-lg-3 col-md-6 centered">
-                <img className="img img-circle" src="img/shivam.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
+                <img className="img img-circle" src="img/vish.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
-                <h2><b className="changecolor">Shivam Goyal</b></h2>
-                <p className="changecolor">Application Enginner Intern at Google</p>
-                <p className="changecolor">Upwork Freelance Software Enginner</p>
+                <h2><b className="changecolor">Vishal Anand</b></h2>
+                <p className="changecolor">Software Engineer at Google</p>
+                {/* <p className="changecolor">Upwork Freelance Software Enginner</p> */}
                 <a href="https://www.linkedin.com/in/shivamgoyal1899/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
@@ -125,11 +125,11 @@ export const Mentors = (props) => {
               {/* /team-member */}
               {/* team-member */}
               <div className="col-lg-3 col-md-6 centered">
-                <img className="img img-circle" src="img/anush.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
+                <img className="img img-circle" src="img/vipul.jpg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
-                <h2><b className="changecolor">Anush Bhatia</b></h2>
-                <p className="changecolor">FLutter Developer</p>
-                <p className="changecolor">GSSOC Project Admin and Mentor</p>
+                <h2><b className="changecolor">Vipul Sharma</b></h2>
+                <p className="changecolor">GSOC 2019 ZULIP Foundation</p>
+                <p className="changecolor">Software Engineer at GitHub</p>
                 <a href="https://www.linkedin.com/in/anushbhatia/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>
@@ -140,8 +140,10 @@ export const Mentors = (props) => {
               <div className="col-lg-12 col-md-6 centered">
                 <img className="img img-circle" src="img/smaranjit.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
-                <h2><b className="changecolor">Smaranjit Ghose</b></h2>
-                <p className="changecolor">Mentor and Project Admin at GirlScript Summer of Code</p>
+                <h2><b className="changecolor">Abhigyan Khaund</b></h2>
+                <p className="changecolor">GSOC Zulip 2018<br />
+                GSOC Mentor Zulip 2020</p>
+                <p className="changecolor">Software Engineer at Microsoft jun 2020- Aug 2021</p>
                 <a href="https://www.linkedin.com/in/smaranjitghose/" target="_blank">
                   <i className="fab fa-linkedin" />
                 </a>

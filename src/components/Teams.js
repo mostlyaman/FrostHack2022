@@ -78,7 +78,7 @@ export const Teams = (props) => {
               fb="https://www.facebook.com/profile.php?id=100039774819697"
               img="rishabh_g"
             /> */}
-              <Member
+              {/* <Member
                 name="Paras "
                 phone="7860688567"
                 role="Sponsor Head"
@@ -96,14 +96,14 @@ export const Teams = (props) => {
               phone="9818722716"
               role="Sponsor Head"
               fb="https://www.facebook.com/uchihamangekyoun/"
-            />
+            /> */}
             <Member
               name="Kanishk Garg "
               phone="9877506661"
               role="Social Media Head"
               fb="https://www.facebook.com/kanishak.garg.90/"
             />
-            <Member
+            {/* <Member
               name="Surendra Singh"
               phone="8094876054"
               role="Social Media Head"
@@ -114,7 +114,7 @@ export const Teams = (props) => {
               phone="7012016415"
               role="Publicity Head"
               fb="https://www.facebook.com/profile.php?id=100009269570738"
-            />
+            /> */}
              <Member
               name="Punit Daga"
               phone="8003347240"
@@ -152,12 +152,6 @@ export const Teams = (props) => {
               phone="8290747574"
               role="Sponsor"
               fb="https://www.facebook.com/profile.php?id=100057358935941"
-            />
-            <Member
-              name="Pushkar Patel "
-              phone="8588001482"
-              role="Sponsor"
-              fb="https://www.facebook.com/pushkar.patel.739326"
             />
             <Member
               name="Pushpendra Kumar"
