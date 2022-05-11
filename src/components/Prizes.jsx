@@ -9,7 +9,6 @@ export const Prizes = (props) => {
         {/* section title */}
         <div className="section-title">
           <h5 className="title">
-            <span style={{ color: "#DADADA" }}>Previous</span>{" "}
             <span style={{ color: "#dd0a37" }}>Prizes</span>
           </h5>
         </div>
