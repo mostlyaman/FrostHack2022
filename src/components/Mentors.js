@@ -138,7 +138,7 @@ export const Mentors = (props) => {
                 </a>
               </div>
               <div className="col-lg-12 col-md-6 centered">
-                <img className="img img-circle" src="img/smaranjit.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
+                <img className="img img-circle" src="img/abhigyan.jpeg" height="200px" width="200px" alt="Hitesh Ramchandani" />
                 <br />
                 <h2><b className="changecolor">Abhigyan Khaund</b></h2>
                 <p className="changecolor">GSOC Zulip 2018<br />
