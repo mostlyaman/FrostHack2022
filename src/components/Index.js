@@ -22,7 +22,6 @@ export const Index = (props) => {
                     <h1 className="coming-soon">
                       {/* <br /> */}
                       <br />
-                      
                       COMING SOON
                     </h1>
                     <h1>
