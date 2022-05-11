@@ -276,7 +276,7 @@ export const Index = (props) => {
               </div>
             </div>
             */}
-            <h3
+            {/* <h3
             className="text-center changecolor"
             style={{
               marginTop: "100px",
@@ -286,7 +286,7 @@ export const Index = (props) => {
           >
             Title Sponsor
           </h3>
-          <div className="spon-diamond">
+           <div className="spon-diamond">
             <div className="track sponsor">
               <a
                 rel="noreferrer"
@@ -303,7 +303,7 @@ export const Index = (props) => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */} 
             <h3
               className="text-center changecolor"
               style={{
@@ -327,6 +327,13 @@ export const Index = (props) => {
                     </div>
                   </a>
                 </div>
+              </div>
+              <div className="track sponsor">
+                <a rel="noreferrer" href="https://thementorx.com/" target="_blank">
+                  <div className="img-fluid">
+                    <img src="img/Mentorx.png" alt="" />
+                  </div>
+                </a>
               </div>
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://www.geeksforgeeks.org/" target="_blank">
