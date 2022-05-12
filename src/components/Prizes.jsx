@@ -42,7 +42,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">1st Prize</h3>
-                      <h6 className="changecolor">₹20,000 cash + ₹30,000 worth Hoverrobotics vouchers</h6>
+                      <h6 className="changecolor">₹50,000 Worth</h6>
                       <p />
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">2nd Prize</h3>
-                      <h6 className="changecolor">₹15,000 cash + ₹20,000 worth Hoverrobotics voucher</h6>
+                      <h6 className="changecolor">₹35,000 Worth</h6>
                       <p />
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">3rd Prize</h3>
-                      <h6 className="changecolor">₹10,000 cash + ₹10,000 worth Hoverrobotics voucher</h6>
+                      <h6 className="changecolor">₹20,000 Worth</h6>
                       <p />
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">4th Prize</h3>
-                      <h6 className="changecolor">₹10,000 worth Hoverrobotics voucher</h6>
+                      <h6 className="changecolor">₹10,000 Worth Goodies</h6>
                       <p />
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">5th Prize</h3>
-                      <h6 className="changecolor">₹10,000 worth hoverrobotics voucher</h6>
+                      <h6 className="changecolor">₹10,000 worth goodies</h6>
                       <p />
                     </div>
                   </div>
