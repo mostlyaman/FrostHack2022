@@ -439,6 +439,27 @@ export const Index = (props) => {
               </div>
               </div>
             </div>
+            <h3
+              className="text-center changecolor"
+              style={{
+                marginTop: "100px",
+                marginBottom: "40px",
+                fontSize: "30px",
+              }}
+            >
+              AR/VR Partner 
+            </h3>
+            <div className="spon-platinum">
+              <div className="spon-diamond">
+                <div className="track sponsor">
+                  <a rel="noreferrer" href="https://www.echo3d.co/" target="_blank">
+                    <div className="img-fluid">
+                      <img src="img/spons/echo3D.png" alt="" />
+                    </div>
+                  </a>
+              </div>
+              </div>
+            </div>
             
           {/* container */}
           <div className="container">
