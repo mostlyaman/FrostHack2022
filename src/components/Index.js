@@ -22,27 +22,19 @@ export const Index = (props) => {
                     <h1 className="coming-soon">
                       {/* <br /> */}
                       <br />
-                      COMING SOON
+                      FROSTHACK
                     </h1>
-                    <h1>
-                      {/* frosthack */}
-                      {/* <img
-                        id="frosthacklogo"
-                        src="./img/logos/wide-white.png"
-                        alt=""
-                      /> */}
-                    </h1>.
                     <br /><br />
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
-                      
                       <i className="fas fa-calendar-day">
                         {" "}
                         20th May - 22nd May 2022
                       </i>
                     </h4>
-                    {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
+                    {""}
+                    
                     <div>
                       {" "}
                       <br />{" "}
@@ -276,7 +268,7 @@ export const Index = (props) => {
               </div>
             </div>
             */}
-            {/* <h3
+             <h3
             className="text-center changecolor"
             style={{
               marginTop: "100px",
@@ -303,7 +295,7 @@ export const Index = (props) => {
                 </div>
               </a>
             </div>
-          </div> */} 
+          </div>
             <h3
               className="text-center changecolor"
               style={{
@@ -332,13 +324,6 @@ export const Index = (props) => {
                 <a rel="noreferrer" href="https://thementorx.com/" target="_blank">
                   <div className="img-fluid">
                     <img src="img/Mentorx.png" alt="" />
-                  </div>
-                </a>
-              </div>
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://www.geeksforgeeks.org/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/gfg-new-logo.png" alt="" />
                   </div>
                 </a>
               </div>
@@ -433,7 +418,28 @@ export const Index = (props) => {
               </a>
             </div>
           </div> */}
-          
+          <h3
+              className="text-center changecolor"
+              style={{
+                marginTop: "100px",
+                marginBottom: "40px",
+                fontSize: "30px",
+              }}
+            >
+              Coding Partner
+            </h3>
+            <div className="spon-platinum">
+              <div className="spon-diamond">
+                <div className="track sponsor">
+                  <a rel="noreferrer" href="https://www.geeksforgeeks.org/" target="_blank">
+                    <div className="img">
+                      <img src="img/spons/gfg-new-logo.png" alt="" />
+                    </div>
+                  </a>
+              </div>
+              </div>
+            </div>
+            
           {/* container */}
           <div className="container">
             {/* track */}

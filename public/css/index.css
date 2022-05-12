@@ -32,6 +32,9 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
+.Center-Logo{
+	size:50px;
+}
 .navNotTop .navbar-brand .logo .logo-img {
   display: none;
 }

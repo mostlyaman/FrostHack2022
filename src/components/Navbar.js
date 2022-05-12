@@ -46,7 +46,7 @@ export const Navbar = (props) => {
         onMouseOut={strt}
       >
         {" "}
-        Coming Soon! Stay tuned for updates.{" "}
+        Join our Discord Server for updates. <a href="https://xpecto.tech/eventRegister?event=FrostHack">Click Here to register</a>{" "}
       </marquee>
       <div className="container">
         {/*navbar header */}
@@ -57,13 +57,13 @@ export const Navbar = (props) => {
               <img
                 id="image2"
                 className="logo-img"
-                src="./img/logos/wide-small-white.png"
+                src="./img/logos/bizthon-wide-nobg.png"
                 alt="logo"
               />
               <img
                 id="image1"
                 className="logo-alt-img"
-                src="./img/logos/wide-small.png"
+                src="./img/logos/bizthon-wide-light.png"
                 alt="logo"
               />
             </a>
