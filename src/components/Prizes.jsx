@@ -42,7 +42,31 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">1st Prize</h3>
-                      <h6 className="changecolor">₹50,000 Worth</h6>
+                      <h6 className="changecolor">₹40,000 Worth</h6>
+                      <p />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*/Prize*/}
+              {/*Prize*/}
+              <div
+                className={
+                  props.isArchive === "true"
+                    ? "col-xs-6 col-sm-3 col-md-3 col-lg-3"
+                    : "col-xs-12 col-sm-6 col-md-4 col-lg-4"
+                }
+                style={{ height: "400px" }}
+                id="cash-prize-r1-1"
+              >
+                <div className="card-flyer">
+                  <div className="text-box">
+                    <div className="image-box">
+                      <img src="img/gold.jpg" alt="" />
+                    </div>
+                    <div className="text-container">
+                      <h3 className="changecolor">Best Blockchain</h3>
+                      <h6 className="changecolor">₹40,000 Worth</h6>
                       <p />
                     </div>
                   </div>
@@ -66,7 +90,7 @@ export const Prizes = (props) => {
                     </div>
                     <div className="text-container">
                       <h3 className="changecolor">2nd Prize</h3>
-                      <h6 className="changecolor">₹35,000 Worth</h6>
+                      <h6 className="changecolor">₹25,000 Worth</h6>
                       <p />
                     </div>
                   </div>
