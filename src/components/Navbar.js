@@ -57,13 +57,13 @@ export const Navbar = (props) => {
               <img
                 id="image2"
                 className="logo-img"
-                src="./img/logos/bizthon-wide-nobg.png"
+                src="./img/logos/wide-small-white.png"
                 alt="logo"
               />
               <img
                 id="image1"
                 className="logo-alt-img"
-                src="./img/logos/bizthon-wide-light.png"
+                src="./img/logos/wide-small.png"
                 alt="logo"
               />
             </a>

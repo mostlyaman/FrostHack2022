@@ -21,8 +21,11 @@ export const Index = (props) => {
                   <div className="home-content">
                     <h1 className="coming-soon">
                       {/* <br /> */}
+                      BIZTHON </h1>
+                      <br/>
+                      <h3>Presents</h3>
                       <br />
-                      FROSTHACK
+                    <h1>  FROSTHACK
                     </h1>
                     <br /><br />
                     <h4 className="lead">
@@ -454,7 +457,7 @@ export const Index = (props) => {
                 <div className="track sponsor">
                   <a rel="noreferrer" href="https://www.echo3d.co/" target="_blank">
                     <div className="img-fluid">
-                      <img src="img/spons/echo3D.png" alt="" />
+                      <img src={"https://static.wixstatic.com/media/c42fea_29a84adfa04046e69529e73ba3417d5d~mv2.png/v1/fill/w_1650,h_825,al_c/c42fea_29a84adfa04046e69529e73ba3417d5d~mv2.png"} alt="" />
                     </div>
                   </a>
               </div>
