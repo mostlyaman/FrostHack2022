@@ -92,7 +92,7 @@ export const Index = (props) => {
         {/* container */}
         <div className="container" style={{ paddingTop: "4em" }}>
           {/* row */}
-          <div className="row tracks">
+          <div className="row tracks" style={{ spacing: "2em" }}>
             {/* section title */}
             <div className="section-title">
               <h5 className="title">
@@ -101,7 +101,7 @@ export const Index = (props) => {
             </div>
             {/* /section title */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/ai.svg" alt="" />
                 <h3 className="mt-3">AI</h3>
@@ -109,7 +109,7 @@ export const Index = (props) => {
             </div>
             {/* /track */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/blockchain.svg" alt="" />
                 <h3 className="mt-3">Blockchain</h3>
@@ -117,7 +117,7 @@ export const Index = (props) => {
             </div>
             {/* /track */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/innovation.svg" alt="" />
                 <h3 className="mt-3">General</h3>
@@ -125,7 +125,7 @@ export const Index = (props) => {
             </div>
             {/* /track */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/iot.svg" alt="" />
                 <h3 className="mt-3">Internet of things</h3>
@@ -133,7 +133,7 @@ export const Index = (props) => {
             </div>
             {/* /track */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/web.svg" alt="" />
                 <h3 className="mt-3">Web</h3>
@@ -141,10 +141,25 @@ export const Index = (props) => {
             </div>
             {/* /track */}
             {/* track */}
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="track">
                 <img src="img/ar-glasses.svg" alt="" />
                 <h3 className="mt-3">AR/VR</h3>
+              </div>
+            </div>
+            {/* /track */}
+            {/* track */}
+            <div className="col-sm-3">
+              <div className="track">
+                <img src="img/robot.svg" alt="" />
+                <h3 className="mt-3">Chat Bot</h3>
+              </div>
+            </div>
+            {/* /track */}
+            <div className="col-sm-3">
+              <div className="track">
+                <img src="img/mobile-phone.svg" alt="" />
+                <h3 className="mt-3">Android/iOS</h3>
               </div>
             </div>
             {/* /track */}
