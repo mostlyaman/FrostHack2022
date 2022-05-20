@@ -241,6 +241,21 @@ export const Index = (props) => {
           </div>
       </div>
       </div> */}
+                {/* container */}
+                <div className="container">
+            <div className="download-btn">
+              <a
+                rel="noreferrer"
+                href="./files/Themes2022.pdf"
+                target="_blank"
+                className="main-btn"
+                style={{ marginBottom: 40 }}
+              >
+                Themes
+              </a>
+            </div>
+          </div>
+          {/* /container */}
         {/* Sponsors */}
         <div id="sponsors" className="section">
           <div className="container">
@@ -661,21 +676,7 @@ export const Index = (props) => {
             {/* /track */}
           </div>
           {/* container */}
-          {/* container */}
-          <div className="container">
-            <div className="download-btn">
-              <a
-                rel="noreferrer"
-                href="./files/spon.pdf"
-                target="_blank"
-                className="main-btn"
-                style={{ marginBottom: 40 }}
-              >
-                Sponsor Us
-              </a>
-            </div>
-          </div>
-          {/* /container */}
+
         </div>
         {/* /Sponsors */}
         {/* FAQ */}
