@@ -256,6 +256,22 @@ export const Index = (props) => {
             </div>
           </div>
           {/* /container */}
+          {/* container */}
+          <div className="container">
+            <div className="download-btn">
+              <a
+                rel="noreferrer"
+                href="http://app.bizthon.com/"
+                target="_blank"
+                className="main-btn"
+                style={{ marginBottom: 40 }}
+              >
+                Idea Submissions
+              </a>
+            <h3 class="Cent" className="Cent" style={{color: "white"}}>Deadline 21st May, 11 pm IST</h3>
+            </div>
+          </div>
+          {/* /container */}
         {/* Sponsors */}
         <div id="sponsors" className="section">
           <div className="container">
