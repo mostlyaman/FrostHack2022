@@ -105,11 +105,11 @@ export const Navbar = (props) => {
                 Mentors
               </a>
             </li> */}
-            <li>
+            {/* <li>
               <a id="6" href="/teams">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a id="7" href="/archive">
                 Archives

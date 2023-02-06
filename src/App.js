@@ -19,9 +19,9 @@ function App() {
     <Navbar/>
     <Router>
       <Switch>
-        <Route path="/teams">
+        {/* <Route path="/teams">
           <Teams />
-        </Route>
+        </Route> */}
         <Route path="/judges">
           <Judges />
         </Route>
