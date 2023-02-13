@@ -31,8 +31,8 @@ export const Contactus = (props) => {
                         <div className="contact">
                             <i className="fas fa-phone fa-4x"></i>
                             <h3 className="mt-3">Phone</h3>
-                            <p><a href="tel:+919654855054" className="changecolor">Nehal : +919654855054</a></p>
-                            <p><a href="tel:+917987590764" className="changecolor">Shubhanshu : +917987590764</a></p>
+                            <p><a href="tel:+918800529525" className="changecolor">Suhana : +918800529525</a></p>
+                            <p><a href="tel:+919818646352" className="changecolor">Vihan : +919818646352</a></p>
                         </div>
                     </div>
                     {/* <!-- /contact -->
@@ -49,7 +49,7 @@ export const Contactus = (props) => {
                         <div className="contact">
                             <i className="fab fa-discord fa-4x"></i>
                             <h3 className="mt-3">Discord Server</h3>
-                            <a href="https://discord.com/invite/YsV3MJ7ke2" className="changecolor">Invite Link</a>
+                            <a href="https://discord.com/invite/Vq9FwuCnmb" className="changecolor">Invite Link</a>
                         </div>
                     </div>
 

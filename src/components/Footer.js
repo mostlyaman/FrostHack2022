@@ -12,9 +12,9 @@ export const Footer = (props) => {
                         <div className="contact-social">
                             <a target="_blank" href="https://www.facebook.com/frosthackiitmandi/" rel="noreferrer"><i
                                     className="fab fa-facebook fa-2x"></i></a>
-                            <a target="_blank" href="https://www.instagram.com/frosthack_iitmandi/" rel="noreferrer"><i
+                            <a target="_blank" href="https://www.instagram.com/kamandprompt/" rel="noreferrer"><i
                                     className="fab fa-instagram fa-2x"></i></a>
-                            <a target="_blank" href="https://discord.com/invite/YsV3MJ7ke2" rel="noreferrer">
+                            <a target="_blank" href="https://discord.com/invite/Vq9FwuCnmb" rel="noreferrer">
                                 <i className="fab fa-discord fa-2x" ></i>
                             </a>
                         </div>
