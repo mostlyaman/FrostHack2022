@@ -19,13 +19,6 @@ export const Index = (props) => {
                 {/* home content */}
                 <div className="col-md-8 col-md-offset-2">
                   <div className="home-content">
-                    <h1 className='coming-soon'>
-                      <br />
-                      <br />
-                      <br />
-                      {/* <br /> */}
-                      COMING SOON
-                    </h1>
                     <h1>
                       {/* frosthack */}
                       <img id="frosthacklogo" src="./img/logos/wide-white.png" alt="" />
@@ -33,7 +26,7 @@ export const Index = (props) => {
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
-                      <i className="fas fa-calendar-day"> 3rd March - 4th March 2023</i>
+                      <i className="fas fa-calendar-day"> 3rd March - 5th March 2023</i>
                     </h4>
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
@@ -66,7 +59,10 @@ export const Index = (props) => {
               {/* about content */}
               <div className="about-content">
                 <p className="changecolor">
-                  FrostHack is an Open Hackathon organized by the student community of IIT Mandi with the goal of solving societal problems by collective collaboration among the students using tech.
+                The student community of IIT Mandi is organizing FrostHack, an Open Hackathon, to solve societal problems through collaborative efforts among students using technology. 
+The event aims to foster teamwork and innovation, encouraging participants to develop tech-based solutions for real-world issues. 
+</p><p>
+The ultimate goal is to create impactful solutions and cultivate a culture of innovation and community engagement among the participants.
                 </p>
               </div>
               {/* /about content */}
@@ -148,7 +144,7 @@ export const Index = (props) => {
               {/* about content */}
               <div className="about-content">
                 <p className="changecolor">
-                  TO BE ANNOUNCED
+                  Prizes worth 1.25 lacs +
                 </p>
               </div>
               {/* /about content */}

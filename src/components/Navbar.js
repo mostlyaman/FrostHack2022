@@ -39,7 +39,7 @@ export const Navbar = (props) => {
 
   return (
     <header id="header" className="transparent-navbar navTop">
-      <marquee
+      {/* <marquee
         id="timeline"
         className="changecolor"
         onMouseOver={stop}
@@ -47,7 +47,7 @@ export const Navbar = (props) => {
       >
         {" "}
         Coming Soon! Stay tuned for updates.{" "}
-      </marquee>
+      </marquee> */}
       <div className="container">
         {/*navbar header */}
         <div className="navbar-header">
@@ -110,11 +110,6 @@ export const Navbar = (props) => {
                 Team
               </a>
             </li> */}
-            <li>
-              <a id="7" href="/archive">
-                Archives
-              </a>
-            </li>
           </ul>
         </nav>
         {/* <!-- /Navigation --> */}

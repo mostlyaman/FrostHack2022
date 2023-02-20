@@ -31,9 +31,9 @@ function App() {
         <Route path="/mentors">
           <Mentors />
         </Route>
-        <Route path="/archive">
+        {/* <Route path="/archive">
           <Archive />
-        </Route>
+        </Route> */}
         <Route path="/">
           <Index />
           <Contactus/>
