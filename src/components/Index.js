@@ -3,6 +3,16 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { Contactus } from "./Contactus";
 export const Index = (props) => {
+
+  React.useEffect(() => {
+    const devfolioscript = document.createElement('script');
+    devfolioscript.src = 'https://apply.devfolio.co/v2/sdk.js';
+    devfolioscript.async = true;
+    devfolioscript.defer = true;
+    document.body.appendChild(devfolioscript);
+    return ()=>{ document.body.removeChild(devfolioscript); }
+  })
+
   return (
     <div>
       {/* Home */}
@@ -21,13 +31,19 @@ export const Index = (props) => {
                   <div className="home-content">
                     <h1>
                       {/* frosthack */}
-                      <img id="frosthacklogo" src="./img/logos/wide-white.png" alt="" />
+                      <img id="frosthacklogo" src="./img/logos/wide-white.png" style={{width: '70%'}} />
                     </h1>
                     <h4 className="lead">
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
                       <i className="fas fa-calendar-day"> 3rd March - 5th March 2023</i>
                     </h4>
+                    <div 
+                      className="apply-button" 
+                      data-hackathon-slug="frosthack-2k23 " 
+                      data-button-theme="light"
+                      style={{height: 10, width: 100}}
+                    ></div>
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
                     <div> <br /> </div>
@@ -100,7 +116,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
             <div className="col-sm-4">
               <div className="track">
                 <img src="img/innovation.svg" alt="" />
-                <h3 className="mt-3">General</h3>
+                <h3 className="mt-3">Open Innovation</h3>
               </div>
             </div>
             {/* /track */}
@@ -144,7 +160,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
               {/* about content */}
               <div className="about-content">
                 <p className="changecolor">
-                  Prizes worth 1.25 lacs +
+                  Prizes worth 1.25 lacs + to be won
                 </p>
               </div>
               {/* /about content */}
@@ -231,19 +247,22 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
             <div className="row sponbox">
               {/* section title */}
               <div className="section-title">
-                <h3 className="title"><span>Our Previous </span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
+                <h3 className="title"><span>Our </span> <span style={{ color: '#dd0a37' }}>Sponsors</span></h3>
               </div>
               {/* /section title */}
             </div>
-            
+            <h3
+              className="text-center changecolor"
+              style={{
+                marginTop: "70px",
+                marginBottom: "40px",
+                fontSize: "30px",
+                color: 'white'
+              }}
+            >
+              Diamond Sponsors
+            </h3>
             <div className="spon-diamond">
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://motwanijadejafoundation.com/" target="_blank">
-                  <div className="img" >
-                    <img src="img/spons/MJF_logo.png" alt=""  />
-                  </div>
-                </a>
-              </div>
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://devfolio.co/" target="_blank">
                   <div className="img">
@@ -251,8 +270,6 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="spon-platinum">
               <div className="track sponsor">
                 <a rel="noreferrer" href="https://polygon.technology/" target="_blank">
                   <div className="img">
@@ -261,58 +278,78 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                 </a>
               </div>
               <div className="track sponsor">
-                <a rel="noreferrer" href="https://tezos.com/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/tezos.png" alt="" />
-                  </div>
-                </a>
-              </div>
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://celo.org/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/Celo.png" alt="not found" />
-                  </div>
-                </a>
-              </div>
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://www.portis.io" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/portis.png" alt="" className="spon-logo" />
-                  </div>
-                </a>
-              </div>
-              <div className="track sponsor">
-                <a rel="noreferrer" href="https://ieee.iitmandi.ac.in/" target="_blank">
-                  <div className="img">
-                    <img src="img/spons/IEEE_logo.png" alt="" className="spon-logo" />
+                <a rel="noreferrer" href="https://ihubiitmandi.in/" target="_blank">
+                  <div className="img-fluid">
+                    <img src="img/spons/ihub.png" alt="" style={{width: 200, height: 200}} />
                   </div>
                 </a>
               </div>
             </div>
           </div>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "70px",
+              marginBottom: "40px",
+              fontSize: "30px",
+              color: 'white'
+            }}
+          >
+            Platinum Sponsors
+          </h3>
+          <div className="spon-diamond">
+            <div className="track sponsor">
+              <a rel="noreferrer" href="https://replit.com/" target="_blank">
+                <div className="img-fluid img">
+                  <img src="img/spons/replit.png" alt="" style={{height: 90}} />
+                </div>
+              </a>
+            </div>
+            <div className="track sponsor">
+              <a rel="noreferrer" href="https://filecoin.io/" target="_blank">
+                <div className="img m-auto">
+                  <img src="img/spons/filecoin.png" alt="" style={{ height: 90}} />
+                </div>
+              </a>
+            </div>
+            <div className="track sponsor">
+              <a rel="noreferrer" href="https://solana.com/" target="_blank">
+                <div className="img-fluid img">
+                  <img src="img/spons/solana.png" alt="" style={{height: 40}}  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "70px",
+              marginBottom: "40px",
+              fontSize: "30px",
+              color: 'white'
+            }}
+          >
+          Gold Sponsors
+          </h3>
           <div className="spon-diamond">
             <div className="track sponsor">
               <a rel="noreferrer" href="https://hoverrobotix.com/" target="_blank">
                 <div className="img-fluid">
-                  <img src="img/spons/hoverRobotix.png" alt="" />
+                  <img src="img/spons/hoverRobotix.png" alt="" style={{width: 200, height: 200}} />
                 </div>
               </a>
             </div>
-          </div>
-          <div className="spon-diamond">
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://tesseract.rezzlon.com/" target="_blank">
-                <div className="img">
-                  <img src="img/spons/tesseract.png" alt="" width={50} height={60} />
+              <a rel="noreferrer" href="https://thementorx.com/" target="_blank">
+                <div className="img-fluid">
+                  <img src="img/spons/mentorx.png" alt="" style={{height: 200}} />
                 </div>
               </a>
             </div>
-          </div>
-          <div className="spon-diamond">
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://www.linkedin.com/company/hackoverflow/?originalSubdomain=in" target="_blank">
-                <div className="img">
-                  <img src="img/spons/hackoverflow_logo.png" alt="" width={50} height={60} />
+              <a rel="noreferrer" href="https://thementorx.com/" target="_blank">
+                <div className="img-fluid">
+                  <img src="img/spons/revup.jfif" alt="" style={{height: 200}} />
                 </div>
               </a>
             </div>
@@ -569,7 +606,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                       <div id="collapse2nd" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div className="panel-body">
                           <p className="changecolor">
-                            The event will be online.
+                            The event will be offline.
                           </p>
                         </div>
                       </div>
@@ -651,7 +688,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                       <div id="collapse5th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div className="panel-body">
                           <p className="changecolor">
-                            Every team can have min 2 and max 3 members.
+                            Every team can have min 1 and max 4 members.
                           </p></div>
                       </div>
                     </div>
