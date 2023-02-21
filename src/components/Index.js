@@ -33,16 +33,16 @@ export const Index = (props) => {
                       {/* frosthack */}
                       <img id="frosthacklogo" src="./img/logos/wide-white.png" style={{width: '70%'}} />
                     </h1>
-                    <h4 className="lead">
+                    <h4 className="lead" style={{marginBottom: 100}}>
                       <i className="fas fa-map-marker-alt"> IIT Mandi</i>
                       <br />
                       <i className="fas fa-calendar-day"> 3rd March - 5th March 2023</i>
                     </h4>
                     <div 
                       className="apply-button" 
-                      data-hackathon-slug="frosthack-2k23 " 
-                      data-button-theme="light"
-                      style={{height: 10, width: 100}}
+                      data-hackathon-slug="frosthack-2k23" 
+                      data-button-theme="dark"
+                      style={{height: 10, width: 100, scrollbarWidth: 'none' }}
                     ></div>
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
@@ -347,7 +347,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
               </a>
             </div>
             <div className="track sponsor">
-              <a rel="noreferrer" href="https://thementorx.com/" target="_blank">
+              <a rel="noreferrer" href="http://nancyjuneja.com/rev-up-life-skill/" target="_blank">
                 <div className="img-fluid">
                   <img src="img/spons/revup.jfif" alt="" style={{height: 200}} />
                 </div>
@@ -725,7 +725,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                       <div id="collapse8th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div className="panel-body">
                           <p className="changecolor">
-                            Feel free to contact us. Just drop us a mail at team@frosthack.com
+                            Feel free to contact us. Just drop us a mail at teamfrosthack@gmail.com
                             You can also contact one of our organizers.
                           </p>
                         </div>
