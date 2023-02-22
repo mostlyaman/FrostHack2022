@@ -99,6 +99,11 @@ export const Navbar = (props) => {
                 FAQ
               </a>
             </li>
+            <li>
+              <a id="4" href="https://frosthack-2k23.devfolio.co/" target="_blank" >
+                Register
+              </a>
+            </li>
             {/* <li><a id="4" href="/judges">Judges</a></li> */}
             {/* <li>
               <a id="5" href="/mentors">

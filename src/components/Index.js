@@ -1,17 +1,14 @@
 import React from 'react';
-import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
-import { Contactus } from "./Contactus";
 export const Index = (props) => {
 
-  React.useEffect(() => {
-    const devfolioscript = document.createElement('script');
-    devfolioscript.src = 'https://apply.devfolio.co/v2/sdk.js';
-    devfolioscript.async = true;
-    devfolioscript.defer = true;
-    document.body.appendChild(devfolioscript);
-    return ()=>{ document.body.removeChild(devfolioscript); }
-  })
+  // React.useEffect(() => {
+  //   const devfolioscript = document.createElement('script');
+  //   devfolioscript.src = 'https://apply.devfolio.co/v2/sdk.js';
+  //   devfolioscript.async = true;
+  //   devfolioscript.defer = true;
+  //   document.body.appendChild(devfolioscript);
+  //   return ()=>{ document.body.removeChild(devfolioscript); }
+  // })
 
   return (
     <div>
@@ -350,6 +347,26 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
               <a rel="noreferrer" href="http://nancyjuneja.com/rev-up-life-skill/" target="_blank">
                 <div className="img-fluid">
                   <img src="img/spons/revup.jfif" alt="" style={{height: 200}} />
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3
+            className="text-center changecolor"
+            style={{
+              marginTop: "70px",
+              marginBottom: "40px",
+              fontSize: "30px",
+              color: 'white'
+            }}
+          >
+          AR/VR Development Partner
+          </h3>
+          <div className="spon-diamond">
+            <div className="track sponsor">
+              <a rel="noreferrer" href="https://www.echo3d.com/" target="_blank">
+                <div className="img-fluid">
+                  <img src="img/spons/echo.jfif" alt="" />
                 </div>
               </a>
             </div>
