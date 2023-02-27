@@ -1,14 +1,14 @@
 import React from 'react';
 export const Index = (props) => {
 
-  // React.useEffect(() => {
-  //   const devfolioscript = document.createElement('script');
-  //   devfolioscript.src = 'https://apply.devfolio.co/v2/sdk.js';
-  //   devfolioscript.async = true;
-  //   devfolioscript.defer = true;
-  //   document.body.appendChild(devfolioscript);
-  //   return ()=>{ document.body.removeChild(devfolioscript); }
-  // })
+  React.useEffect(() => {
+    const devfolioscript = document.createElement('script');
+    devfolioscript.src = 'https://apply.devfolio.co/v2/sdk.js';
+    devfolioscript.async = true;
+    devfolioscript.defer = true;
+    document.body.appendChild(devfolioscript);
+    return ()=>{ document.body.removeChild(devfolioscript); }
+  })
 
   return (
     <div>
@@ -35,12 +35,7 @@ export const Index = (props) => {
                       <br />
                       <i className="fas fa-calendar-day"> 3rd March - 5th March 2023</i>
                     </h4>
-                    <div 
-                      className="apply-button" 
-                      data-hackathon-slug="frosthack-2k23" 
-                      data-button-theme="dark"
-                      style={{height: 10, width: 100, scrollbarWidth: 'none' }}
-                    ></div>
+                    
                     {/* <a rel="noreferrer" href="https://discord.com/invite/Vq9FwuCnmb" className="cta-button-hero"><img src="./img/discord.png" alt="" /></a> */}
                     <div> <br /> </div>
                     <div> <br /> </div>
@@ -78,9 +73,19 @@ The event aims to foster teamwork and innovation, encouraging participants to de
 The ultimate goal is to create impactful solutions and cultivate a culture of innovation and community engagement among the participants.
                 </p>
               </div>
+              
+              </div>
+              <div className="container">
+                <div className="download-btn">
+                  <a href="https://xpecto.tech/events/63dbf9a5de4b0c5e13d1befb" target="_blank" className="main-btn" style={{marginBottom: 40, marginTop: 40}}>See event on Xpecto</a>
+                </div>
               {/* /about content */}
             </div>
           </div>
+          <div 
+            className="apply-button" 
+            data-hackathon-slug="frosthack-2k23" 
+          ></div>
           {/* row */}
         </div>
         {/* /container */}
@@ -596,6 +601,25 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab">
                         <h3 className="panel-title">
+                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-right" href="#collapse7th" aria-expanded="false" aria-controls="collapse4th">
+                            Is there any registration fee for the hackathon?
+                          </a>
+                        </h3>
+                      </div>
+                      <div id="collapse7th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div className="panel-body">
+                          <p className="changecolor">
+                            No, there is no registration fee for FrostHack. However, participants will
+                            need to cover the accommodation cost, which is Rs1700. This fee covers
+                            three days of accommodation, food, event participation, and Pro Night. 
+                            For additional information, please visit https://xpecto.tech/payment-info.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default">
+                      <div className="panel-heading" role="tab">
+                        <h3 className="panel-title">
                           <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-left" href="#collapse6th" aria-expanded="false" aria-controls="collapse6th">
                             Can I start working on my hack before the event?
                           </a>
@@ -690,6 +714,23 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                             The developer/developers of the application will have all rights and own the
                             IP of the product. However, all code needs to be in public domain (open
                             source) so that it can be evaluated by the judges.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="panel panel-default">
+                      <div className="panel-heading" role="tab">
+                        <h3 className="panel-title">
+                          <a rel="noreferrer" className="collapsed changecolor" data-toggle="collapse" data-parent="#accordion-right" href="#collapse9th" aria-expanded="false" aria-controls="collapse4th">
+                            I am a beginner, Can I participate?
+                          </a>
+                        </h3>
+                      </div>
+                      <div id="collapse9th" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div className="panel-body">
+                          <p className="changecolor">
+                            Without a doubt! Our mentors will be available to provide assistance. 
+                            Join us at FrostHack to learn and participate in your first-ever hackathon.
                           </p>
                         </div>
                       </div>

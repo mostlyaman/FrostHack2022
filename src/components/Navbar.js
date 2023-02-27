@@ -100,6 +100,11 @@ export const Navbar = (props) => {
               </a>
             </li>
             <li>
+              <a id="3" href="./files/rulebook.pdf" target="_blank">
+                Rulebook
+              </a>
+            </li>
+            <li>
               <a id="4" href="https://frosthack-2k23.devfolio.co/" target="_blank" >
                 Register
               </a>
