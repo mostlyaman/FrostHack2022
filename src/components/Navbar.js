@@ -105,6 +105,11 @@ export const Navbar = (props) => {
               </a>
             </li>
             <li>
+              <a id="3" href="https://drive.google.com/file/d/1Z-plS6Lnf29EV-ph3diEoqvIdABiklhQ/view?usp=drivesdk" target="_blank">
+                Themes
+              </a>
+            </li>
+            <li>
               <a id="4" href="https://frosthack-2k23.devfolio.co/" target="_blank" >
                 Register
               </a>
