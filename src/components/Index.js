@@ -80,7 +80,7 @@ The ultimate goal is to create impactful solutions and cultivate a culture of in
                   <a href="https://xpecto.tech/events/63dbf9a5de4b0c5e13d1befb" target="_blank" className="main-btn" style={{ marginTop: 40}}>See event on Xpecto</a>
                 </div>
                 <div className="download-btn">
-                  <a href="https://xpecto.tech/events/63dbf9a5de4b0c5e13d1befb" target="_blank" className="main-btn"  style={{marginBottom: 40}}>See Themes</a>
+                  <a href="https://drive.google.com/file/d/1Z-plS6Lnf29EV-ph3diEoqvIdABiklhQ/view?usp=drivesdk" target="_blank" className="main-btn"  style={{marginBottom: 40}}>See Themes</a>
                 </div>
               {/* /about content */}
             </div>
